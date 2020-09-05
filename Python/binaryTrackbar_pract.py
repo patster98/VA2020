@@ -29,6 +29,7 @@ def binary_with_trackbar():
 
         gray = cv2.cvtColor(frame, cv2.COLOR_RGB2GRAY)
         _, thresh1 = cv2.threshold(gray, trackbar_val, trackbar_val2, cv2.THRESH_BINARY) #cv2.THRESH_BINARY_INV me hace lo mismo al reves
+
         cv2.imshow(window_name, cv2.flip(thresh1, 1))
 
         if cv2.waitKey(1) & 0xFF == ord('q'):

@@ -9,7 +9,7 @@ import cv2
 
 
 def exercise_one():
-    image = cv2.imread('static/images/phone1.png')
+    image = cv2.imread('static/images/phone.png')
     gray = cv2.cvtColor(image, cv2.COLOR_RGB2GRAY)
     _, thresh1 = cv2.threshold(gray, 127, 255, cv2.THRESH_BINARY)
     cv2.imshow("original", image)

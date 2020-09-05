@@ -35,9 +35,9 @@ def contour():
         cv2.drawContours(frame, contours_noise, -1, (0, 0, 255), 3)
         cv2.drawContours(frame2, [approx], -1, (0, 0, 255), 3)
 
-        #cv2.imshow("Noise", cv2.flip(frame, 1))
+        cv2.imshow("Noise", cv2.flip(frame, 1))
         cv2.imshow("Denoise", cv2.flip(frame2, 1))
-        cv2.imshow("Binary", cv2.flip(thresh1, 1))
+        # cv2.imshow("Binary", cv2.flip(thresh1, 1))
 
         if cv2.waitKey(1) & 0xFF == ord('q'):
             break
