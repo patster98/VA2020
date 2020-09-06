@@ -12,11 +12,11 @@ trackbar2_name = 'MaxThresh'
 cv2.namedWindow(window_name)
 cv2.namedWindow(window_name2)
 
-slider_max = 255
+slider_max = 200
 slider2_max = 255
-cv2.createTrackbar(trackbar_name, window_name, 1, slider_max, on_trackbar_change)
-cv2.createTrackbar(trackbar2_name, window_name, 0, slider2_max, on_trackbar_change)
-cv2.createTrackbar(trackbar2_name, window_name2, 0, slider2_max, on_trackbar_change)
+cv2.createTrackbar(trackbar_name, window_name, 50, slider_max, on_trackbar_change)
+cv2.createTrackbar(trackbar2_name, window_name, 50, slider2_max, on_trackbar_change)
+cv2.createTrackbar(trackbar2_name, window_name2, 50, slider2_max, on_trackbar_change)
 
 
 def Tp():
@@ -45,23 +45,25 @@ def Tp():
         opening2 = cv2.morphologyEx(threshAuto, cv2.MORPH_OPEN, kernel)
         closing2 = cv2.morphologyEx(opening2, cv2.MORPH_CLOSE, kernel)
 
-        contoursDenoise1, _ = cv2.findContours(closing1, cv2.RETR_TREE, cv2.CHAIN_APPROX_NONE)
-        contoursDenoise2, _ = cv2.findContours(closing2, cv2.RETR_TREE, cv2.CHAIN_APPROX_NONE)
+        contDnis1 = cv2.findContours(closing1, cv2.RETR_TREE, cv2.CHAIN_APPROX_NONE)
+        contDnis2 = cv2.findContours(closing2, cv2.RETR_TREE, cv2.CHAIN_APPROX_NONE)
 
-        cnt1 = contoursDenoise1[1]
-        cnt2 = contoursDenoise2[1]
+        # sin este if se rompe el programa cuando el trackbar esta en 0
+        if (threshVal_trackbar and maxThresh_trackbar and maxThresh_trackbar2) == 0:
+            cv2.drawContours(frame, contDnis1, 0, (0, 0, 255), 6)  # sobre threshMan
+            cv2.drawContours(frame2, contDnis2, 0, (0, 255, 255), 6)  # sobre threshAuto
 
-        # cnt = contours_denoise[0]
-        # max_area = cv2.contourArea(cnt)
-        #
-        # # toma el contorno mas grande
-        # for cont in contours_denoise:
-        #     if cv2.contourArea(cont) > max_area:
-        #         cnt = cont
-        #         max_area = cv2.contourArea(cont)
+        else:
+            cntDnis1 = cv2.findContours(closing1, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+            cntDnis2 = cv2.findContours(closing2, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+            # alternativa para el contorno mas grande
+            cntDnis1 = cntDnis1[0] if len(cntDnis1) == 2 else cntDnis1[1]
+            cntDnis1 = sorted(cntDnis1, key=cv2.contourArea, reverse=True)[0]
+            cntDnis2 = cntDnis2[0] if len(cntDnis2) == 2 else cntDnis2[1]
+            cntDnis2 = sorted(cntDnis2, key=cv2.contourArea, reverse=True)[0]
 
-        cv2.drawContours(frame, [cnt1], -1, (0, 0, 255), 6) #sobre threshMan
-        cv2.drawContours(frame2, [cnt2], -1, (0, 255, 255), 6) #sobre threshAuto
+            cv2.drawContours(frame, [cntDnis1], -1, (0, 0, 255), 6) #sobre threshMan
+            cv2.drawContours(frame2, [cntDnis2], -1, (0, 255, 255), 6) #sobre threshAuto
 
 
 
