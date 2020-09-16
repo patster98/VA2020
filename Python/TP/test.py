@@ -24,13 +24,12 @@ slider2_max = 100
 cv2.createTrackbar(trackbar_name, window_name, 150, slider_max, on_trackbar_change)
 cv2.createTrackbar(trackbar2_name, window_name, 50, slider2_max, on_trackbar_change)
 cv2.createTrackbar(trackbar3_name, window_name, 8000, 100000, on_trackbar_change)
-cv2.createTrackbar(trackbar4_name, window_name, 100, 1000, on_trackbar_change)
+cv2.createTrackbar(trackbar4_name, window_name, 800, 1500, on_trackbar_change)
 
 
 def Tp():
     cap = cv2.VideoCapture(0)
     comp = None
-
     while True:
         filtered = []
         similar = []
@@ -47,7 +46,6 @@ def Tp():
         _, thresh1 = cv2.threshold(gray, threshVal_trackbar, 250, cv2.THRESH_BINARY)
 
         kernel = cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (10, 10))
-        # kernel2 = cv2.getGaussianKernel(ksize=3)
         opening1 = cv2.morphologyEx(thresh1, cv2.MORPH_OPEN, kernel)
         closing1 = cv2.morphologyEx(opening1, cv2.MORPH_CLOSE, kernel)
 
@@ -60,7 +58,7 @@ def Tp():
         else:
             for c in contDnis1:
                 area = cv2.contourArea(c)
-                if minCnt < area < maxCnt:
+                if minCnt + 700 < area < maxCnt:
                     filtered.append(c)
 
             if filtered != []:
@@ -74,31 +72,43 @@ def Tp():
                         max_area = cv2.contourArea(cont)
                 cv2.drawContours(frame, [cnt], -1, (255, 108, 181), 10, cv2.LINE_AA)
 
-            moments = cv2.moments(cnt)
-            huMoments = np.array(cv2.HuMoments(moments), dtype=float)
-            logTransf = -1 * np.sign(huMoments) * np.log10(np.abs(huMoments))
+                moments = cv2.moments(cnt)
+                cX1 = int(moments["m10"] / moments["m00"])
+                cY1 = int(moments["m01"] / moments["m00"])
+                huMoments = np.array(cv2.HuMoments(moments), dtype=float)
+                logTransf = -1 * np.sign(huMoments) * np.log10(np.abs(huMoments))
+                cv2.drawMarker(frame, (cX1, cY1), (0, 0, 0), cv2.MARKER_CROSS, markerSize=20, thickness=1, line_type=8)
 
             for filter in filtered:
                 err = cv2.matchShapes(filter, cnt, cv2.CONTOURS_MATCH_I1, 0)
                 if err < minError / 100 and cnt != []:
                     similar.append(filter)
+                    mom1 = cv2.moments(filter)
+                    cX1 = int(mom1["m10"] / mom1["m00"])
+                    cY1= int(mom1["m01"] / mom1["m00"])
+                    cv2.putText(frame, "True", (cX1, cY1), cv2.FONT_ITALIC, 1, (0, 0, 0), 2, cv2.LINE_4)
                 else:
                     noSimilar.append(filter)
+                    mom = cv2.moments(filter)
+                    cX = int(mom["m10"] / mom["m00"])
+                    cY = int(mom["m01"] / mom["m00"])
+                    cv2.putText(frame, "False", (cX, cY), cv2.FONT_ITALIC, 1, (0, 0, 0), 2, cv2.LINE_4)
+
             cv2.drawContours(frame, noSimilar, -1, (0, 0, 255), 4, cv2.LINE_AA)
             cv2.drawContours(frame, similar, -1, (0, 255, 0), 4, cv2.LINE_AA)
 
-        cv2.imshow(window_name, cv2.flip(frame, 1))
+        cv2.imshow(window_name, frame)
         cv2.imshow(window_name2, cv2.flip(thresh1, 1))
 
         if cv2.waitKey(1) & 0xFF == ord('c'):
             # guardo el valor de lo que quiero comparar con huMoments
             comp = cnt
-            continue
 
         if cv2.waitKey(1) & 0xFF == ord('q'):
-            # print(filtered)
             print(err)
             print(comp)
+            # print("cnt Moments: ", Moments)
+            # print("cnt HuMoments: ", huMoments)
             break
 
 
