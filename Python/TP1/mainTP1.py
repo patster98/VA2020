@@ -1,10 +1,6 @@
 import cv2
 import numpy as np
-
-
-def on_trackbar_change(val):
-    # do nothing
-    pass
+from TP1.Tests.trackbarChange import on_trackbar_change
 
 
 window_name = 'contourImg'
@@ -27,7 +23,7 @@ cv2.createTrackbar(trackbar3_name, window_name, 8000, 100000, on_trackbar_change
 cv2.createTrackbar(trackbar4_name, window_name, 800, 1500, on_trackbar_change)
 
 
-def Tp():
+def main():
     global cnt, err
     cap = cv2.VideoCapture(0)
     compare = None
@@ -46,8 +42,8 @@ def Tp():
         gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 
         _, thresh1 = cv2.threshold(gray, threshVal_trackbar, 250, cv2.THRESH_BINARY)
-        # thresh2 = cv2.adaptiveThreshold(gray,255,cv2.ADAPTIVE_THRESH_GAUSSIAN_C,\
-        #              cv2.THRESH_BINARY,11,2)
+        thresh2 = cv2.adaptiveThreshold(gray,255,cv2.ADAPTIVE_THRESH_GAUSSIAN_C,\
+                     cv2.THRESH_BINARY,int(threshVal_trackbar/2)*2+3,2)
 
         kernel = cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (10, 10))
         opening1 = cv2.morphologyEx(thresh1, cv2.MORPH_OPEN, kernel)
@@ -102,7 +98,7 @@ def Tp():
                 cv2.drawContours(frame, noSimilar, -1, (0, 0, 255), 4, cv2.LINE_AA)
                 cv2.drawContours(frame, similar, -1, (0, 255, 0), 4, cv2.LINE_AA)
 
-        cv2.imshow(window_name, frame)
+        cv2.imshow(window_name, thresh2)
         cv2.imshow(window_name2, cv2.flip(thresh1, 1))
         if cv2.waitKey(1) & 0xFF == ord('c'):
             compare = cnt
@@ -112,8 +108,10 @@ def Tp():
         if cv2.waitKey(1) & 0xFF == ord('q'):
             print(err)
             np.savetxt('Moments.txt', (f'Moments:\n {moments}',), header="Moments", fmt='%s', delimiter=', ')
-            np.savetxt('HuMoments.txt', (f'HuMoments:\n {logTransf}',), header="LogScale HuMoments", fmt='%s', delimiter=', ')
+            np.savetxt('HuMoments.txt', (f'HuMoments:\n {logTransf}',), header="LogScale HuMoments", fmt='%s',
+                       delimiter=', ')
             break
+    cap.release()
 
 
-Tp()
+main()

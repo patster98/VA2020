@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="8" />
+    <option name="CUSTOM_SCOPE_NAME" value="Current File" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0b368111-cfea-44cb-93bc-9dd6622b6a17" name="Default Changelist" comment="changes 17/9/2020 V2&#10;added to test.py:&#10;save moments to .txt file">
+      <change afterPath="$PROJECT_DIR$/TP1/Tests/trackbarChange.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP/scriptTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/TP1/Tests/scriptTest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/TP1/Tests/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP/test2.py" beforeDir="false" afterPath="$PROJECT_DIR$/TP1/Tests/test2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP/testBlur.py" beforeDir="false" afterPath="$PROJECT_DIR$/TP1/Tests/testBlur.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/max_area" beforeDir="false" afterPath="$PROJECT_DIR$/TP1/mainTP1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/SW.jpg" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1h4HfmLKseX37MS8H9eShxAW5kT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.webOptions" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Skyguy\Desktop\Ingenieria\Segundo Cuatrimestre\Vision Artificial\VA2020\Python\TP1\Tests" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.test (2)">
+    <configuration name="hu_moments_generation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TP1/MachineLearning/utils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TP1/MachineLearning/utils/hu_moments_generation.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TP1/MachineLearning" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TP1/MachineLearning/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TP1/MachineLearning" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TP1/MachineLearning/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="testing_model" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TP1/MachineLearning/utils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TP1/MachineLearning/utils/testing_model.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="training_model" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TP1/MachineLearning/utils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TP1/MachineLearning/utils/training_model.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test (2)" />
+        <item itemvalue="Python.hu_moments_generation" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.testing_model" />
+        <item itemvalue="Python.training_model" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0b368111-cfea-44cb-93bc-9dd6622b6a17" name="Default Changelist" comment="" />
+      <created>1599263550173</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599263550173</updated>
+    </task>
+    <task id="LOCAL-00001" summary="changes 5/9/2020&#10;added test.py and TP folder">
+      <created>1599324980607</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599324980607</updated>
+    </task>
+    <task id="LOCAL-00002" summary="changes 5/9/2020&#10;test for denoise with blurring and detecting blue color">
+      <created>1599325021021</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1599325021021</updated>
+    </task>
+    <task id="LOCAL-00003" summary="changes 6/9/2020&#10;Added new function for defining biggest contour (line 57-63)&#10;Added if statement for trackbarVal=0 error (line 51-66)">
+      <created>1599407774625</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1599407774625</updated>
+    </task>
+    <task id="LOCAL-00004" summary="changes 6/9/2020&#10;Testing new function for defining biggest contour">
+      <created>1599407797222</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1599407797222</updated>
+    </task>
+    <task id="LOCAL-00005" summary="changes 8/9/2020&#10;Added HuMoments,centroid (in line 66)">
+      <created>1599589662818</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1599589662818</updated>
+    </task>
+    <task id="LOCAL-00006" summary="changes 11/9/2020&#10;added: &#10;HuMoments, moments, and log transform&#10;set compare when pressing c&#10;contour filter for max and min area set with trackbars&#10;find max cnt area from filtered list&#10;if statement lifesaver (line 64)">
+      <created>1599864042923</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1599864042923</updated>
+    </task>
+    <task id="LOCAL-00007" summary="changes 11/9/2020&#10;added to test.py:&#10;HuMoments, moments, and log transform&#10;set compare when pressing c&#10;contour filter for max and min area set with trackbars&#10;find max cnt area from filtered list&#10;if statement lifesaver (line 64)">
+      <created>1599864153543</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1599864153543</updated>
+    </task>
+    <task id="LOCAL-00008" summary="changes 16/9/2020&#10;added to test.py:&#10;matchShapes compare in line 81">
+      <created>1600286980362</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1600286980362</updated>
+    </task>
+    <task id="LOCAL-00009" summary="changes 16/9/2020 V2&#10;added to test.py:&#10;added text and drawmarker&#10;moved line 75 to 80 inside if">
+      <created>1600291583419</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1600291583419</updated>
+    </task>
+    <task id="LOCAL-00010" summary="changes 17/9/2020 &#10;added to test.py:&#10;in line 105 added compare var to select contour to match">
+      <created>1600365950355</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1600365950356</updated>
+    </task>
+    <task id="LOCAL-00011" summary="changes 17/9/2020 V2&#10;added to test.py:&#10;save moments to .txt file">
+      <created>1600395794614</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1600395794614</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="changes 5/9/2020&#10;added test.py and TP folder" />
+    <MESSAGE value="changes 5/9/2020&#10;test for denoise with blurring and detecting blue color" />
+    <MESSAGE value="changes 6/9/2020&#10;Added new function for defining biggest contour (line 57-63)&#10;Added if statement for trackbarVal=0 error (line 51-66)" />
+    <MESSAGE value="changes 6/9/2020&#10;Testing new function for defining biggest contour" />
+    <MESSAGE value="changes 8/9/2020&#10;Added HuMoments,centroid (in line 66)" />
+    <MESSAGE value="changes 11/9/2020&#10;added: &#10;HuMoments, moments, and log transform&#10;set compare when pressing c&#10;contour filter for max and min area set with trackbars&#10;find max cnt area from filtered list&#10;if statement lifesaver (line 64)" />
+    <MESSAGE value="changes 11/9/2020&#10;added to test.py: &#10;HuMoments, moments, and log transform&#10;set compare when pressing c&#10;contour filter for max and min area set with trackbars&#10;find max cnt area from filtered list&#10;if statement lifesaver (line 64)" />
+    <MESSAGE value="changes 11/9/2020&#10;added to test.py:&#10;HuMoments, moments, and log transform&#10;set compare when pressing c&#10;contour filter for max and min area set with trackbars&#10;find max cnt area from filtered list&#10;if statement lifesaver (line 64)" />
+    <MESSAGE value="changes 16/9/2020&#10;added to test.py:&#10;matchShapes compare in line 81" />
+    <MESSAGE value="changes 16/9/2020 V2&#10;added to test.py:&#10;added text and drawmarker&#10;moved line 75 to 80 inside if" />
+    <MESSAGE value="changes 17/9/2020 &#10;added to test.py:&#10;in line 105 added compare var to select contour to match" />
+    <MESSAGE value="changes 17/9/2020 V2&#10;added to test.py:&#10;save moments to .txt file" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes 17/9/2020 V2&#10;added to test.py:&#10;save moments to .txt file" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="309" y="35" key="#Inspections" timestamp="1600454367908">
+      <screen x="0" y="0" width="1366" height="714" />
+    </state>
+    <state x="309" y="35" key="#Inspections/0.0.1366.714@0.0.1366.714" timestamp="1600454367908" />
+    <state x="137" y="12" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600831763216">
+      <screen x="0" y="0" width="1366" height="714" />
+    </state>
+    <state x="137" y="12" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.714@0.0.1366.714" timestamp="1600831763216" />
+    <state x="443" y="159" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600819310798">
+      <screen x="0" y="0" width="1366" height="714" />
+    </state>
+    <state x="443" y="159" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.714@0.0.1366.714" timestamp="1600819310798" />
+    <state x="413" y="104" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600366505059">
+      <screen x="0" y="0" width="1366" height="714" />
+    </state>
+    <state x="413" y="104" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.714@0.0.1366.714" timestamp="1600366505059" />
+    <state width="1345" height="198" key="GridCell.Tab.0.bottom" timestamp="1600834272712">
+      <screen x="0" y="0" width="1366" height="714" />
+    </state>
+    <state width="1345" height="198" key="GridCell.Tab.0.bottom/0.0.1366.714@0.0.1366.714" timestamp="1600834272712" />
+    <state width="1328" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599864221607" />
+    <state width="1345" height="198" key="GridCell.Tab.0.center" timestamp="1600834272708">
+      <screen x="0" y="0" width="1366" height="714" />
+    </state>
+    <state width="1345" height="198" key="GridCell.Tab.0.center/0.0.1366.714@0.0.1366.714" timestamp="1600834272708" />
+    <state width="1328" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1599864221606" />
+    <state width="1345" height="198" key="GridCell.Tab.0.left" timestamp="1600834272707">
+      <screen x="0" y="0" width="1366" height="714" />
+    </state>
+    <state width="1345" height="198" key="GridCell.Tab.0.left/0.0.1366.714@0.0.1366.714" timestamp="1600834272707" />
+    <state width="1328" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1599864221606" />
+    <state width="1345" height="198" key="GridCell.Tab.0.right" timestamp="1600834272709">
+      <screen x="0" y="0" width="1366" height="714" />
+    </state>
+    <state width="1345" height="198" key="GridCell.Tab.0.right/0.0.1366.714@0.0.1366.714" timestamp="1600834272709" />
+    <state width="1328" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1599864221607" />
+    <state width="1328" height="214" key="GridCell.Tab.1.bottom" timestamp="1600291731915">
+      <screen x="0" y="0" width="1366" height="714" />
+    </state>
+    <state width="1328" height="214" key="GridCell.Tab.1.bottom/0.0.1366.714@0.0.1366.714" timestamp="1600291731915" />
+    <state width="1345" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599609544027" />
+    <state width="1328" height="214" key="GridCell.Tab.1.center" timestamp="1600291731914">
+      <screen x="0" y="0" width="1366" height="714" />
+    </state>
+    <state width="1328" height="214" key="GridCell.Tab.1.center/0.0.1366.714@0.0.1366.714" timestamp="1600291731914" />
+    <state width="1345" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1599609544027" />
+    <state width="1328" height="214" key="GridCell.Tab.1.left" timestamp="1600291731914">
+      <screen x="0" y="0" width="1366" height="714" />
+    </state>
+    <state width="1328" height="214" key="GridCell.Tab.1.left/0.0.1366.714@0.0.1366.714" timestamp="1600291731914" />
+    <state width="1345" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1599609544027" />
+    <state width="1328" height="214" key="GridCell.Tab.1.right" timestamp="1600291731914">
+      <screen x="0" y="0" width="1366" height="714" />
+    </state>
+    <state width="1328" height="214" key="GridCell.Tab.1.right/0.0.1366.714@0.0.1366.714" timestamp="1600291731914" />
+    <state width="1345" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1599609544027" />
+    <state x="564" y="84" key="RollbackChangesDialog" timestamp="1599864099741">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="564" y="84" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1599864099741" />
+    <state x="184" y="2" key="SettingsEditor" timestamp="1600229828747">
+      <screen x="0" y="0" width="1366" height="714" />
+    </state>
+    <state x="184" y="2" key="SettingsEditor/0.0.1366.714@0.0.1366.714" timestamp="1600229828747" />
+    <state x="290" y="213" key="VCS.ChangelistChooser" timestamp="1600454389697">
+      <screen x="0" y="0" width="1366" height="714" />
+    </state>
+    <state x="290" y="213" key="VCS.ChangelistChooser/0.0.1366.714@0.0.1366.714" timestamp="1600454389697" />
+    <state x="290" y="217" key="VCS.ChangelistChooser/0.0.1366.728@0.0.1366.728" timestamp="1599864134369" />
+    <state x="275" y="95" key="Vcs.Push.Dialog.v2" timestamp="1600395798950">
+      <screen x="0" y="0" width="1366" height="714" />
+    </state>
+    <state x="275" y="95" key="Vcs.Push.Dialog.v2/0.0.1366.714@0.0.1366.714" timestamp="1600395798950" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1599864190456" />
+    <state x="526" y="149" key="refactoring.ChangeSignatureDialog" timestamp="1599858138966">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="526" y="149" key="refactoring.ChangeSignatureDialog/0.0.1366.728@0.0.1366.728" timestamp="1599858138966" />
+  </component>
+</project>
