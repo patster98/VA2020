@@ -29,15 +29,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b368111-cfea-44cb-93bc-9dd6622b6a17" name="Default Changelist" comment="changes 17/9/2020 V2&#10;added to test.py:&#10;save moments to .txt file">
-      <change afterPath="$PROJECT_DIR$/TP1/MachineLearning/utils/video_contours.py" afterDir="false" />
+    <list default="true" id="0b368111-cfea-44cb-93bc-9dd6622b6a17" name="Default Changelist" comment="changes 24/9/2020 V2&#10;added to Ml project:&#10;created new ML project adapted to webcam usage">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1/MachineLearning/generated-files/shapes-hu-moments.csv" beforeDir="false" afterPath="$PROJECT_DIR$/TP1/MachineLearning/generated-files/shapes-hu-moments.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TP1/MachineLearning/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/TP1/MachineLearning/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1/MachineLearning/utils/hu_moments_generation.py" beforeDir="false" afterPath="$PROJECT_DIR$/TP1/MachineLearning/utils/hu_moments_generation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1/MachineLearning/utils/label_converters.py" beforeDir="false" afterPath="$PROJECT_DIR$/TP1/MachineLearning/utils/label_converters.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TP1/MachineLearning/utils/testing_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/TP1/MachineLearning/utils/testing_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1/mainTP1.py" beforeDir="false" afterPath="$PROJECT_DIR$/TP1/mainTP1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -273,7 +268,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600395794614</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="changes 24/9/2020 V2&#10;added to Ml project:&#10;created new ML project adapted to webcam usage">
+      <created>1600992555238</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1600992555239</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -313,7 +315,8 @@
     <MESSAGE value="changes 16/9/2020 V2&#10;added to test.py:&#10;added text and drawmarker&#10;moved line 75 to 80 inside if" />
     <MESSAGE value="changes 17/9/2020 &#10;added to test.py:&#10;in line 105 added compare var to select contour to match" />
     <MESSAGE value="changes 17/9/2020 V2&#10;added to test.py:&#10;save moments to .txt file" />
-    <option name="LAST_COMMIT_MESSAGE" value="changes 17/9/2020 V2&#10;added to test.py:&#10;save moments to .txt file" />
+    <MESSAGE value="changes 24/9/2020 V2&#10;added to Ml project:&#10;created new ML project adapted to webcam usage" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes 24/9/2020 V2&#10;added to Ml project:&#10;created new ML project adapted to webcam usage" />
   </component>
   <component name="WindowStateProjectService">
     <state x="309" y="35" key="#Inspections" timestamp="1600454367908">
@@ -385,14 +388,18 @@
     </state>
     <state x="290" y="213" key="VCS.ChangelistChooser/0.0.1366.714@0.0.1366.714" timestamp="1600454389697" />
     <state x="290" y="217" key="VCS.ChangelistChooser/0.0.1366.728@0.0.1366.728" timestamp="1599864134369" />
-    <state x="275" y="95" key="Vcs.Push.Dialog.v2" timestamp="1600395798950">
+    <state x="275" y="95" key="Vcs.Push.Dialog.v2" timestamp="1600992567710">
       <screen x="0" y="0" width="1366" height="714" />
     </state>
-    <state x="275" y="95" key="Vcs.Push.Dialog.v2/0.0.1366.714@0.0.1366.714" timestamp="1600395798950" />
+    <state x="275" y="95" key="Vcs.Push.Dialog.v2/0.0.1366.714@0.0.1366.714" timestamp="1600992567710" />
     <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1599864190456" />
     <state x="526" y="149" key="refactoring.ChangeSignatureDialog" timestamp="1599858138966">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="526" y="149" key="refactoring.ChangeSignatureDialog/0.0.1366.728@0.0.1366.728" timestamp="1599858138966" />
+    <state x="346" y="35" width="670" height="58" key="search.everywhere.popup" timestamp="1601050332653">
+      <screen x="0" y="0" width="1366" height="714" />
+    </state>
+    <state x="346" y="35" width="670" height="58" key="search.everywhere.popup/0.0.1366.714@0.0.1366.714" timestamp="1601050332653" />
   </component>
 </project>
