@@ -75,7 +75,7 @@ def main():
                 moments = cv2.moments(cnt)
                 cX1 = int(moments["m10"] / moments["m00"])
                 cY1 = int(moments["m01"] / moments["m00"])
-                huMoments = np.array(cv2.HuMoments(moments), dtype=float)
+                huMoments = np.array(cv2.HuMoments(moments), dtype=float32)
                 logTransf = -1 * np.sign(huMoments) * np.log10(np.abs(huMoments))
                 cv2.drawMarker(frame, (cX1, cY1), (0, 0, 0), cv2.MARKER_CROSS, markerSize=20, thickness=1, line_type=8)
 
@@ -98,7 +98,7 @@ def main():
                 cv2.drawContours(frame, noSimilar, -1, (0, 0, 255), 4, cv2.LINE_AA)
                 cv2.drawContours(frame, similar, -1, (0, 255, 0), 4, cv2.LINE_AA)
 
-        cv2.imshow(window_name, thresh2)
+        cv2.imshow(window_name, frame)
         cv2.imshow(window_name2, cv2.flip(thresh1, 1))
         if cv2.waitKey(1) & 0xFF == ord('c'):
             compare = cnt

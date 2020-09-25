@@ -30,13 +30,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b368111-cfea-44cb-93bc-9dd6622b6a17" name="Default Changelist" comment="changes 17/9/2020 V2&#10;added to test.py:&#10;save moments to .txt file">
-      <change afterPath="$PROJECT_DIR$/TP1/Tests/trackbarChange.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/scriptTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/TP1/Tests/scriptTest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/TP1/Tests/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/test2.py" beforeDir="false" afterPath="$PROJECT_DIR$/TP1/Tests/test2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP/testBlur.py" beforeDir="false" afterPath="$PROJECT_DIR$/TP1/Tests/testBlur.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/max_area" beforeDir="false" afterPath="$PROJECT_DIR$/TP1/mainTP1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/SW.jpg" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP1/MachineLearning/utils/video_contours.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP1/MachineLearning/generated-files/shapes-hu-moments.csv" beforeDir="false" afterPath="$PROJECT_DIR$/TP1/MachineLearning/generated-files/shapes-hu-moments.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP1/MachineLearning/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/TP1/MachineLearning/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP1/MachineLearning/utils/hu_moments_generation.py" beforeDir="false" afterPath="$PROJECT_DIR$/TP1/MachineLearning/utils/hu_moments_generation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP1/MachineLearning/utils/label_converters.py" beforeDir="false" afterPath="$PROJECT_DIR$/TP1/MachineLearning/utils/label_converters.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP1/MachineLearning/utils/testing_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/TP1/MachineLearning/utils/testing_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP1/mainTP1.py" beforeDir="false" afterPath="$PROJECT_DIR$/TP1/mainTP1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +71,7 @@
       <recent name="C:\Users\Skyguy\Desktop\Ingenieria\Segundo Cuatrimestre\Vision Artificial\VA2020\Python\TP1\Tests" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test (2)">
+  <component name="RunManager" selected="Python.testInput">
     <configuration name="hu_moments_generation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -113,6 +114,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="mainTP1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TP1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TP1/mainTP1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -134,7 +156,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="testing_model" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="testInput" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -142,32 +164,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TP1/MachineLearning/utils" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TP1/MachineLearning/utils/testing_model.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="training_model" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TP1/MachineLearning/utils" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TP1/MachineLearning/utils/training_model.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testInput.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -178,11 +179,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.testInput" />
+        <item itemvalue="Python.mainTP1" />
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.test (2)" />
         <item itemvalue="Python.hu_moments_generation" />
-        <item itemvalue="Python.main" />
-        <item itemvalue="Python.testing_model" />
-        <item itemvalue="Python.training_model" />
       </list>
     </recent_temporary>
   </component>
@@ -331,25 +332,25 @@
       <screen x="0" y="0" width="1366" height="714" />
     </state>
     <state x="413" y="104" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.714@0.0.1366.714" timestamp="1600366505059" />
-    <state width="1345" height="198" key="GridCell.Tab.0.bottom" timestamp="1600834272712">
+    <state width="1345" height="198" key="GridCell.Tab.0.bottom" timestamp="1600988984050">
       <screen x="0" y="0" width="1366" height="714" />
     </state>
-    <state width="1345" height="198" key="GridCell.Tab.0.bottom/0.0.1366.714@0.0.1366.714" timestamp="1600834272712" />
+    <state width="1345" height="198" key="GridCell.Tab.0.bottom/0.0.1366.714@0.0.1366.714" timestamp="1600988984050" />
     <state width="1328" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599864221607" />
-    <state width="1345" height="198" key="GridCell.Tab.0.center" timestamp="1600834272708">
+    <state width="1345" height="198" key="GridCell.Tab.0.center" timestamp="1600988984046">
       <screen x="0" y="0" width="1366" height="714" />
     </state>
-    <state width="1345" height="198" key="GridCell.Tab.0.center/0.0.1366.714@0.0.1366.714" timestamp="1600834272708" />
+    <state width="1345" height="198" key="GridCell.Tab.0.center/0.0.1366.714@0.0.1366.714" timestamp="1600988984046" />
     <state width="1328" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1599864221606" />
-    <state width="1345" height="198" key="GridCell.Tab.0.left" timestamp="1600834272707">
+    <state width="1345" height="198" key="GridCell.Tab.0.left" timestamp="1600988984043">
       <screen x="0" y="0" width="1366" height="714" />
     </state>
-    <state width="1345" height="198" key="GridCell.Tab.0.left/0.0.1366.714@0.0.1366.714" timestamp="1600834272707" />
+    <state width="1345" height="198" key="GridCell.Tab.0.left/0.0.1366.714@0.0.1366.714" timestamp="1600988984043" />
     <state width="1328" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1599864221606" />
-    <state width="1345" height="198" key="GridCell.Tab.0.right" timestamp="1600834272709">
+    <state width="1345" height="198" key="GridCell.Tab.0.right" timestamp="1600988984048">
       <screen x="0" y="0" width="1366" height="714" />
     </state>
-    <state width="1345" height="198" key="GridCell.Tab.0.right/0.0.1366.714@0.0.1366.714" timestamp="1600834272709" />
+    <state width="1345" height="198" key="GridCell.Tab.0.right/0.0.1366.714@0.0.1366.714" timestamp="1600988984048" />
     <state width="1328" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1599864221607" />
     <state width="1328" height="214" key="GridCell.Tab.1.bottom" timestamp="1600291731915">
       <screen x="0" y="0" width="1366" height="714" />
