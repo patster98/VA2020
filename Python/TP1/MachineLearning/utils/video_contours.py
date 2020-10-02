@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 window_name = 'contourImg'
-
+window2_name = "trackbars"
 trackbar_name = 'ThreshVal'
 trackbar3_name = 'MaxContArea'
 trackbar4_name = 'MinContArea'
@@ -12,19 +12,19 @@ def on_trackbar_change(val):
     pass
 
 def createTrackbars():
-    cv2.namedWindow(window_name)
+    cv2.namedWindow(window2_name)
 
     slider_max = 200
     slider2_max = 100
 
-    cv2.createTrackbar(trackbar_name, window_name, 150, slider_max, on_trackbar_change)
-    cv2.createTrackbar(trackbar3_name, window_name, 8000, 100000, on_trackbar_change)
-    cv2.createTrackbar(trackbar4_name, window_name, 8000, 10000, on_trackbar_change)
+    cv2.createTrackbar(trackbar_name, window2_name, 150, slider_max, on_trackbar_change)
+    cv2.createTrackbar(trackbar3_name, window2_name, 8000, 100000, on_trackbar_change)
+    cv2.createTrackbar(trackbar4_name, window2_name, 8000, 10000, on_trackbar_change)
 
 
 def binaryOPS(frame):
 
-    threshVal_trackbar = cv2.getTrackbarPos(trackbar_name, window_name)
+    threshVal_trackbar = cv2.getTrackbarPos(trackbar_name, window2_name)
 
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
     bin = cv2.adaptiveThreshold(gray, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv2.THRESH_BINARY,

@@ -33,6 +33,6 @@ def train_model():
 
     tree = cv2.ml.DTrees_create()
     tree.setCVFolds(1)
-    tree.setMaxDepth(10)
+    tree.setMaxDepth(20)
     tree.train(trainData, cv2.ml.ROW_SAMPLE, trainLabels)
     return tree

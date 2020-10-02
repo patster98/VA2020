@@ -24,7 +24,7 @@ def generate_hu_moments_file():
         # Ahora escribo los momentos de Hu de cada uno de las figuras. Con el string "rectangle...etc" busca en la carpeta donde estan cada una de las imagenes
         # generar los momentos de Hu y los escribe sobre este archivo. (LOS DE ENTRENAMIENTO).
         write_hu_moments("5-point-star", writer)
-        write_hu_moments("rectangle", writer)
+        write_hu_moments("square", writer)
         write_hu_moments("triangle", writer)
 
 

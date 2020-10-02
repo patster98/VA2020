@@ -1,6 +1,7 @@
 import cv2
 
 image = cv2.imread('shapes/5-point-star/8017934718354.png')
+# image = cv2.imread('shapes/testing/BlackStar.png')
 gray = cv2.cvtColor(image, cv2.COLOR_RGB2GRAY)
 bin = cv2.adaptiveThreshold(gray, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv2.THRESH_BINARY, 67, 2)
 

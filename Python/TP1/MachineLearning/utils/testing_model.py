@@ -7,7 +7,7 @@ from utils.label_converters import int_to_label
 from utils.video_contours import binaryOPS
 
 window_name = 'contourImg'
-
+window2_name = "trackbars"
 trackbar_name = 'ThreshVal'
 trackbar3_name = 'MaxContArea'
 trackbar4_name = 'MinContArea'
@@ -25,7 +25,11 @@ def load_and_testIMG(model):
         image = cv2.imread(f)
         image_with_text = cv2.putText(image, int_to_label(testResponse), (50, 50), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 0, 0), 2, cv2.LINE_AA)
         cv2.imshow("result", image_with_text)
+        if cv2.waitKey(1) & 0xFF == ord('q'):
+                # nothing
+            break
         cv2.waitKey(0)
+
 
 def load_and_testVID(model, cap):
     while True:
@@ -36,10 +40,10 @@ def load_and_testVID(model, cap):
         contours, hierarchy = cv2.findContours(procVid, cv2.RETR_LIST,
                                                       cv2.CHAIN_APPROX_SIMPLE)  # encuetra los contornos
 
-        maxCnt = cv2.getTrackbarPos(trackbar3_name, window_name)
-        minCnt = cv2.getTrackbarPos(trackbar4_name, window_name)
+        maxCnt = cv2.getTrackbarPos(trackbar3_name, window2_name)
+        minCnt = cv2.getTrackbarPos(trackbar4_name, window2_name)
 
-        if (cv2.getTrackbarPos(trackbar_name, window_name)) == 0:
+        if (cv2.getTrackbarPos(trackbar_name, window2_name)) == 0:
             cv2.drawContours(frame, [contour], 0, (0, 0, 255), 10, cv2.LINE_AA)
 
         else:

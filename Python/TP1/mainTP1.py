@@ -2,12 +2,11 @@ import cv2
 import numpy as np
 from TP1.Tests.trackbarChange import on_trackbar_change
 
-
 window_name = 'contourImg'
 window_name2 = 'BinaryImg'
 
 trackbar_name = 'ThreshVal'
-trackbar2_name = 'MinError%'
+trackbar2_name = 'MaxError%'
 trackbar3_name = 'MaxContArea'
 trackbar4_name = 'MinContArea'
 
@@ -35,24 +34,24 @@ def main():
         _, frame = cap.read()
 
         threshVal_trackbar = cv2.getTrackbarPos(trackbar_name, window_name)
-        minError = cv2.getTrackbarPos(trackbar2_name, window_name)
+        max_Error = cv2.getTrackbarPos(trackbar2_name, window_name)
         maxCnt = cv2.getTrackbarPos(trackbar3_name, window_name)
         minCnt = cv2.getTrackbarPos(trackbar4_name, window_name)
 
         gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 
-        _, thresh1 = cv2.threshold(gray, threshVal_trackbar, 250, cv2.THRESH_BINARY)
-        thresh2 = cv2.adaptiveThreshold(gray,255,cv2.ADAPTIVE_THRESH_GAUSSIAN_C,\
-                     cv2.THRESH_BINARY,int(threshVal_trackbar/2)*2+3,2)
+        _, thresh1 = cv2.threshold(gray, threshVal_trackbar, 255, cv2.THRESH_BINARY)
+        # thresh2 = cv2.adaptiveThreshold(gray,255,cv2.ADAPTIVE_THRESH_GAUSSIAN_C,\
+        #              cv2.THRESH_BINARY,int(threshVal_trackbar/2)*2+3,2)
 
         kernel = cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (10, 10))
-        opening1 = cv2.morphologyEx(thresh1, cv2.MORPH_OPEN, kernel)
-        closing1 = cv2.morphologyEx(opening1, cv2.MORPH_CLOSE, kernel)
+        opening1 = cv2.morphologyEx(thresh1, cv2.MORPH_OPEN, kernel)  # saca ruido blanco
+        closing1 = cv2.morphologyEx(opening1, cv2.MORPH_CLOSE, kernel)  # saca ruido negro
 
         contDnis1, _ = cv2.findContours(closing1, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
 
         # sin este if se rompe el programa cuando el trackbar esta en 0
-        if (threshVal_trackbar and minError) == 0:
+        if (threshVal_trackbar and max_Error) == 0:
             cv2.drawContours(frame, contDnis1, 0, (0, 0, 255), 6)
 
         else:
@@ -75,14 +74,14 @@ def main():
                 moments = cv2.moments(cnt)
                 cX1 = int(moments["m10"] / moments["m00"])
                 cY1 = int(moments["m01"] / moments["m00"])
-                huMoments = np.array(cv2.HuMoments(moments), dtype=float32)
+                huMoments = np.array(cv2.HuMoments(moments), dtype=np.float32)
                 logTransf = -1 * np.sign(huMoments) * np.log10(np.abs(huMoments))
                 cv2.drawMarker(frame, (cX1, cY1), (0, 0, 0), cv2.MARKER_CROSS, markerSize=20, thickness=1, line_type=8)
 
             if compare != []:
                 for filter in filtered:
                     err = cv2.matchShapes(filter, compare, cv2.CONTOURS_MATCH_I1, 0)
-                    if err < minError / 100:
+                    if err < max_Error / 100:
                         similar.append(filter)
                         mom1 = cv2.moments(filter)
                         cX1 = int(mom1["m10"] / mom1["m00"])
