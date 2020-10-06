@@ -1,6 +1,6 @@
 import cv2
 import numpy as np
-from TP1.Tests.trackbarChange import on_trackbar_change
+from Tests.trackbarChange import on_trackbar_change
 
 window_name = 'contourImg'
 window_name2 = 'BinaryImg'
