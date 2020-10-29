@@ -29,166 +29,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b368111-cfea-44cb-93bc-9dd6622b6a17" name="Default Changelist" comment="changes 2/10/2020&#10;added to Ml project:&#10;photos to datasets">
-      <change afterPath="$PROJECT_DIR$/TP1Deteccion/Tests/cannyTest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP2Tracking/Tests/carsRt9_3.avi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP2Tracking/Tests/testAutoTracking.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP2Tracking/testVideoTracking.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP2Tracking/utils/bgSubstract.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/videos/univ.avi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="0b368111-cfea-44cb-93bc-9dd6622b6a17" name="Default Changelist" comment="changes 22/10/2020:&#10;added tracking project">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/HuMoments.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/HuMoments.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/generated-files/shapes-hu-moments.csv" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/generated-files/shapes-hu-moments.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/5-point-star/116-1163139_black-star-clip-art-black-star-clipart-clipart.png" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/5-point-star/116-1163139_black-star-clip-art-black-star-clipart-clipart.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/5-point-star/59602653255951.png" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/5-point-star/59602653255951.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/5-point-star/59610980537357.png" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/5-point-star/59610980537357.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/5-point-star/59672513950306.png" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/5-point-star/59672513950306.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/5-point-star/59675722489583.png" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/5-point-star/59675722489583.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/5-point-star/59681693731963.png" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/5-point-star/59681693731963.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/5-point-star/59822137609095.png" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/5-point-star/59822137609095.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/5-point-star/7995122422175.png" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/5-point-star/7995122422175.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/5-point-star/8009967538794.png" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/5-point-star/8009967538794.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/5-point-star/8013865385982.png" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/5-point-star/8013865385982.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/5-point-star/8016101035345.png" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/5-point-star/8016101035345.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/5-point-star/8017934718354.png" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/5-point-star/8017934718354.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/5-point-star/8021250335648.png" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/5-point-star/8021250335648.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/5-point-star/BlackStar.png" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/5-point-star/BlackStar.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/5-point-star/WhatsApp Image 2020-10-01 at 2.41.33 PM.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/5-point-star/WhatsApp Image 2020-10-01 at 2.41.33 PM.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/5-point-star/WhatsApp Image 2020-10-01 at 2.41.34 PM (1).jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/5-point-star/WhatsApp Image 2020-10-01 at 2.41.34 PM (1).jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/5-point-star/WhatsApp Image 2020-10-01 at 2.41.34 PM (2).jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/5-point-star/WhatsApp Image 2020-10-01 at 2.41.34 PM (2).jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/5-point-star/WhatsApp Image 2020-10-01 at 2.41.34 PM (3).jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/5-point-star/WhatsApp Image 2020-10-01 at 2.41.34 PM (3).jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/5-point-star/WhatsApp Image 2020-10-01 at 2.41.34 PM.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/5-point-star/WhatsApp Image 2020-10-01 at 2.41.34 PM.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/5-point-star/WhatsApp Image 2020-10-01 at 2.41.35 PM.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/5-point-star/WhatsApp Image 2020-10-01 at 2.41.35 PM.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/5-point-star/depositphotos_131514220-stock-illustration-minimalistic-black-star-icon-template.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/5-point-star/depositphotos_131514220-stock-illustration-minimalistic-black-star-icon-template.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/5-point-star/estr.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/5-point-star/estr.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/5-point-star/images (1).png" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/5-point-star/images (1).png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/5-point-star/images.png" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/5-point-star/images.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/5-point-star/latest.png" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/5-point-star/latest.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/5-point-star/pinkstar.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/5-point-star/pinkstar.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/5-point-star/pngtree-vector-star-icon-png-image_420017.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/5-point-star/pngtree-vector-star-icon-png-image_420017.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/5-point-star/str.png" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/5-point-star/str.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/5-point-star/unnamed.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/5-point-star/unnamed.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/5-point-star/wishful-black-star-illustration-png-clipart.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/5-point-star/wishful-black-star-illustration-png-clipart.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/square/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/square/1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/square/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/square/2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/square/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/square/4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/square/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/square/5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/square/59885270836995.png" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/square/59885270836995.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/square/59890470749637.png" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/square/59890470749637.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/square/59902845473437.png" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/square/59902845473437.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/square/59912156636946.png" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/square/59912156636946.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/square/59923139060139.png" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/square/59923139060139.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/square/59930176412984.png" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/square/59930176412984.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/square/7855464921353.png" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/square/7855464921353.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/square/7857535255683.png" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/square/7857535255683.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/square/7863278021346.png" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/square/7863278021346.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/square/7868143596992.png" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/square/7868143596992.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/square/7871082409942.png" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/square/7871082409942.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/square/7874819423126.png" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/square/7874819423126.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/square/Kazimir_Malevich,_1915,_Black_Suprematic_Square,_oil_on_linen_canvas,_79.5_x_79.5_cm,_Tretyakov_Gallery,_Moscow.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/square/Kazimir_Malevich,_1915,_Black_Suprematic_Square,_oil_on_linen_canvas,_79.5_x_79.5_cm,_Tretyakov_Gallery,_Moscow.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/square/WhatsApp Image 2020-10-01 at 6.56.48 PM (1).jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/square/WhatsApp Image 2020-10-01 at 6.56.48 PM (1).jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/square/WhatsApp Image 2020-10-01 at 6.56.48 PM.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/square/WhatsApp Image 2020-10-01 at 6.56.48 PM.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/square/WhatsApp Image 2020-10-01 at 6.57.42 PM (1).jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/square/WhatsApp Image 2020-10-01 at 6.57.42 PM (1).jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/square/WhatsApp Image 2020-10-01 at 6.57.42 PM (2).jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/square/WhatsApp Image 2020-10-01 at 6.57.42 PM (2).jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/square/WhatsApp Image 2020-10-01 at 6.57.42 PM (3).jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/square/WhatsApp Image 2020-10-01 at 6.57.42 PM (3).jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/square/WhatsApp Image 2020-10-01 at 6.57.42 PM (4).jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/square/WhatsApp Image 2020-10-01 at 6.57.42 PM (4).jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/square/WhatsApp Image 2020-10-01 at 6.57.42 PM (5).jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/square/WhatsApp Image 2020-10-01 at 6.57.42 PM (5).jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/square/WhatsApp Image 2020-10-01 at 6.57.42 PM (6).jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/square/WhatsApp Image 2020-10-01 at 6.57.42 PM (6).jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/square/WhatsApp Image 2020-10-01 at 6.57.42 PM (7).jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/square/WhatsApp Image 2020-10-01 at 6.57.42 PM (7).jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/square/WhatsApp Image 2020-10-01 at 6.57.42 PM.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/square/WhatsApp Image 2020-10-01 at 6.57.42 PM.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/square/cuadro-negro-png-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/square/cuadro-negro-png-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/square/png-transparent-rectangle-square-graphy-painting-angle-angle-rectangle-photography.png" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/square/png-transparent-rectangle-square-graphy-painting-angle-angle-rectangle-photography.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/square/sqr.png" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/square/sqr.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/testing/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/testing/1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/testing/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/testing/2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/testing/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/testing/3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/testing/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/testing/4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/testing/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/testing/5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/testing/drawn.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/testing/drawn.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/testing/images (1).png" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/testing/images (1).png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/testing/images (2).png" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/testing/images (2).png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/testing/images.png" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/testing/images.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/testing/latest.png" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/testing/latest.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/testing/pink.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/testing/pink.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/testing/rect-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/testing/rect-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/testing/rect-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/testing/rect-2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/testing/rect-3.png" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/testing/rect-3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/testing/rect-camara-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/testing/rect-camara-2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/testing/rect-camara-3.png" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/testing/rect-camara-3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/testing/rect-camara-4.png" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/testing/rect-camara-4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/testing/rect-camara.png" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/testing/rect-camara.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/testing/star-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/testing/star-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/testing/star-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/testing/star-2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/testing/star-3.png" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/testing/star-3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/testing/star-camara-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/testing/star-camara-2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/testing/star-camara-3.png" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/testing/star-camara-3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/testing/star-camara-4.png" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/testing/star-camara-4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/testing/star-camara.png" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/testing/star-camara.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/testing/test.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/testing/test.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/testing/traingle-camara.png" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/testing/traingle-camara.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/testing/tre.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/testing/tre.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/testing/triangle-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/testing/triangle-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/testing/triangle-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/testing/triangle-2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/testing/triangle-3.png" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/testing/triangle-3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/testing/triangle-camara-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/testing/triangle-camara-2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/testing/triangle-camara-3.png" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/testing/triangle-camara-3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/testing/triangle-camara-4.png" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/testing/triangle-camara-4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/testing/tring.png" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/testing/tring.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/triangle/59438089703839.png" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/triangle/59438089703839.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/triangle/59447254739225.png" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/triangle/59447254739225.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/triangle/59456908295917.png" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/triangle/59456908295917.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/triangle/59463575781547.png" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/triangle/59463575781547.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/triangle/59532309775096.png" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/triangle/59532309775096.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/triangle/59540037485444.png" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/triangle/59540037485444.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/triangle/8207765333325.png" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/triangle/8207765333325.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/triangle/8212306212031.png" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/triangle/8212306212031.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/triangle/8225122339884.png" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/triangle/8225122339884.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/triangle/8234165017243.png" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/triangle/8234165017243.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/triangle/8249913438964.png" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/triangle/8249913438964.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/triangle/8260526081290.png" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/triangle/8260526081290.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/triangle/WhatsApp Image 2020-10-01 at 7.00.10 PM (1).jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/triangle/WhatsApp Image 2020-10-01 at 7.00.10 PM (1).jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/triangle/WhatsApp Image 2020-10-01 at 7.00.10 PM.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/triangle/WhatsApp Image 2020-10-01 at 7.00.10 PM.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/triangle/WhatsApp Image 2020-10-01 at 7.00.37 PM (1).jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/triangle/WhatsApp Image 2020-10-01 at 7.00.37 PM (1).jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/triangle/WhatsApp Image 2020-10-01 at 7.00.37 PM (2).jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/triangle/WhatsApp Image 2020-10-01 at 7.00.37 PM (2).jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/triangle/WhatsApp Image 2020-10-01 at 7.00.37 PM (3).jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/triangle/WhatsApp Image 2020-10-01 at 7.00.37 PM (3).jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/triangle/WhatsApp Image 2020-10-01 at 7.00.37 PM (4).jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/triangle/WhatsApp Image 2020-10-01 at 7.00.37 PM (4).jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/triangle/WhatsApp Image 2020-10-01 at 7.00.37 PM (5).jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/triangle/WhatsApp Image 2020-10-01 at 7.00.37 PM (5).jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/triangle/WhatsApp Image 2020-10-01 at 7.00.37 PM.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/triangle/WhatsApp Image 2020-10-01 at 7.00.37 PM.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/triangle/a.png" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/triangle/a.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/triangle/images (1).png" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/triangle/images (1).png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/triangle/images (2).png" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/triangle/images (2).png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/triangle/tr.png" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/triangle/tr.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/triangle/tra.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/triangle/tra.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/triangle/tri.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/triangle/tri.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/triangle/trig.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/triangle/trig.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/triangle/tring.png" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/triangle/tring.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/triangle/tro.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/triangle/tro.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/triangle/tru.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/triangle/tru.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/triangle/tt.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/triangle/tt.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/triangle/tttjpg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/triangle/tttjpg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/shapes/triangle/ttttt.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/shapes/triangle/ttttt.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/utils/hu_moments_generation.py" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/utils/hu_moments_generation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/utils/label_converters.py" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/utils/label_converters.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/utils/testing_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/utils/testing_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/utils/training_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/utils/training_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/MachineLearning/utils/video_contours.py" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/MachineLearning/utils/video_contours.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/Moments.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/Moments.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/Tests/HuMoments.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/Tests/HuMoments.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/Tests/Moments.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/Tests/Moments.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/Tests/cannyTest.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/Tests/scriptTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/Tests/scriptTest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/Tests/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/Tests/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/Tests/test2.py" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/Tests/test2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/Tests/testBlur.py" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/Tests/testBlur.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/Tests/trackbarChange.py" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/Tests/trackbarChange.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1-Deteccion/mainTP1.py" beforeDir="false" afterPath="$PROJECT_DIR$/TP1Deteccion/mainTP1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP2-Tracking/Tests/testDifTrackers.py" beforeDir="false" afterPath="$PROJECT_DIR$/TP2Tracking/Tests/testDifTrackers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP2-Tracking/Tests/testTracking.py" beforeDir="false" afterPath="$PROJECT_DIR$/TP2Tracking/Tests/testTracking.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP2-Tracking/Tests/trackTestFabri.py" beforeDir="false" afterPath="$PROJECT_DIR$/TP2Tracking/Tests/trackTestFabri.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP2-Tracking/mainTrack.py" beforeDir="false" afterPath="$PROJECT_DIR$/TP2Tracking/mainTrack.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP2Tracking/testVideoTracking.py" beforeDir="false" afterPath="$PROJECT_DIR$/TP2Tracking/testVideoTracking.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -485,7 +328,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601617042246</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="changes 22/10/2020:&#10;added tracking project">
+      <created>1603484132588</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1603484132588</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -529,7 +379,8 @@
     <MESSAGE value="changes 25/9/2020 V2&#10;added to Ml project:&#10;changed method to select video or camera processing" />
     <MESSAGE value="changes 2/10/2020&#10;added to Ml project:&#10;photos to datasets&#10;changed rectangle to square" />
     <MESSAGE value="changes 2/10/2020&#10;added to Ml project:&#10;photos to datasets" />
-    <option name="LAST_COMMIT_MESSAGE" value="changes 2/10/2020&#10;added to Ml project:&#10;photos to datasets" />
+    <MESSAGE value="changes 22/10/2020:&#10;added tracking project" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes 22/10/2020:&#10;added tracking project" />
   </component>
   <component name="WindowStateProjectService">
     <state x="309" y="35" key="#Inspections" timestamp="1603388466576">
@@ -552,45 +403,45 @@
       <screen x="0" y="0" width="1366" height="714" />
     </state>
     <state x="695" y="120" key="#xdebugger.evaluate/0.0.1366.714@0.0.1366.714" timestamp="1603389962006" />
-    <state width="1345" height="216" key="GridCell.Tab.0.bottom" timestamp="1603472220547">
+    <state width="1345" height="198" key="GridCell.Tab.0.bottom" timestamp="1603994423869">
       <screen x="0" y="0" width="1366" height="714" />
     </state>
-    <state width="1345" height="216" key="GridCell.Tab.0.bottom/0.0.1366.714@0.0.1366.714" timestamp="1603472220547" />
+    <state width="1345" height="198" key="GridCell.Tab.0.bottom/0.0.1366.714@0.0.1366.714" timestamp="1603994423869" />
     <state width="1328" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599864221607" />
-    <state width="1345" height="216" key="GridCell.Tab.0.center" timestamp="1603472220543">
+    <state width="1345" height="198" key="GridCell.Tab.0.center" timestamp="1603994423865">
       <screen x="0" y="0" width="1366" height="714" />
     </state>
-    <state width="1345" height="216" key="GridCell.Tab.0.center/0.0.1366.714@0.0.1366.714" timestamp="1603472220543" />
+    <state width="1345" height="198" key="GridCell.Tab.0.center/0.0.1366.714@0.0.1366.714" timestamp="1603994423865" />
     <state width="1328" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1599864221606" />
-    <state width="1345" height="216" key="GridCell.Tab.0.left" timestamp="1603472220541">
+    <state width="1345" height="198" key="GridCell.Tab.0.left" timestamp="1603994423864">
       <screen x="0" y="0" width="1366" height="714" />
     </state>
-    <state width="1345" height="216" key="GridCell.Tab.0.left/0.0.1366.714@0.0.1366.714" timestamp="1603472220541" />
+    <state width="1345" height="198" key="GridCell.Tab.0.left/0.0.1366.714@0.0.1366.714" timestamp="1603994423864" />
     <state width="1328" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1599864221606" />
-    <state width="1345" height="216" key="GridCell.Tab.0.right" timestamp="1603472220544">
+    <state width="1345" height="198" key="GridCell.Tab.0.right" timestamp="1603994423867">
       <screen x="0" y="0" width="1366" height="714" />
     </state>
-    <state width="1345" height="216" key="GridCell.Tab.0.right/0.0.1366.714@0.0.1366.714" timestamp="1603472220544" />
+    <state width="1345" height="198" key="GridCell.Tab.0.right/0.0.1366.714@0.0.1366.714" timestamp="1603994423867" />
     <state width="1328" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1599864221607" />
-    <state width="1345" height="216" key="GridCell.Tab.1.bottom" timestamp="1603472220554">
+    <state width="1345" height="216" key="GridCell.Tab.1.bottom" timestamp="1603987234717">
       <screen x="0" y="0" width="1366" height="714" />
     </state>
-    <state width="1345" height="216" key="GridCell.Tab.1.bottom/0.0.1366.714@0.0.1366.714" timestamp="1603472220554" />
+    <state width="1345" height="216" key="GridCell.Tab.1.bottom/0.0.1366.714@0.0.1366.714" timestamp="1603987234717" />
     <state width="1345" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599609544027" />
-    <state width="1345" height="216" key="GridCell.Tab.1.center" timestamp="1603472220551">
+    <state width="1345" height="216" key="GridCell.Tab.1.center" timestamp="1603987234716">
       <screen x="0" y="0" width="1366" height="714" />
     </state>
-    <state width="1345" height="216" key="GridCell.Tab.1.center/0.0.1366.714@0.0.1366.714" timestamp="1603472220551" />
+    <state width="1345" height="216" key="GridCell.Tab.1.center/0.0.1366.714@0.0.1366.714" timestamp="1603987234716" />
     <state width="1345" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1599609544027" />
-    <state width="1345" height="216" key="GridCell.Tab.1.left" timestamp="1603472220550">
+    <state width="1345" height="216" key="GridCell.Tab.1.left" timestamp="1603987234716">
       <screen x="0" y="0" width="1366" height="714" />
     </state>
-    <state width="1345" height="216" key="GridCell.Tab.1.left/0.0.1366.714@0.0.1366.714" timestamp="1603472220550" />
+    <state width="1345" height="216" key="GridCell.Tab.1.left/0.0.1366.714@0.0.1366.714" timestamp="1603987234716" />
     <state width="1345" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1599609544027" />
-    <state width="1345" height="216" key="GridCell.Tab.1.right" timestamp="1603472220553">
+    <state width="1345" height="216" key="GridCell.Tab.1.right" timestamp="1603987234717">
       <screen x="0" y="0" width="1366" height="714" />
     </state>
-    <state width="1345" height="216" key="GridCell.Tab.1.right/0.0.1366.714@0.0.1366.714" timestamp="1603472220553" />
+    <state width="1345" height="216" key="GridCell.Tab.1.right/0.0.1366.714@0.0.1366.714" timestamp="1603987234717" />
     <state width="1345" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1599609544027" />
     <state x="564" y="82" key="RollbackChangesDialog" timestamp="1602258980189">
       <screen x="0" y="0" width="1366" height="714" />
@@ -606,10 +457,10 @@
     </state>
     <state x="290" y="213" key="VCS.ChangelistChooser/0.0.1366.714@0.0.1366.714" timestamp="1600454389697" />
     <state x="290" y="217" key="VCS.ChangelistChooser/0.0.1366.728@0.0.1366.728" timestamp="1599864134369" />
-    <state x="275" y="95" key="Vcs.Push.Dialog.v2" timestamp="1601617055378">
+    <state x="275" y="95" key="Vcs.Push.Dialog.v2" timestamp="1603484321992">
       <screen x="0" y="0" width="1366" height="714" />
     </state>
-    <state x="275" y="95" key="Vcs.Push.Dialog.v2/0.0.1366.714@0.0.1366.714" timestamp="1601617055378" />
+    <state x="275" y="95" key="Vcs.Push.Dialog.v2/0.0.1366.714@0.0.1366.714" timestamp="1603484321992" />
     <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1599864190456" />
     <state x="286" y="127" width="1094" height="381" key="dock-window-1" timestamp="1602270681154">
       <screen x="0" y="0" width="1366" height="714" />
