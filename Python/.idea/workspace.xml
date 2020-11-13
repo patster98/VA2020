@@ -29,14 +29,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b368111-cfea-44cb-93bc-9dd6622b6a17" name="Default Changelist" comment="changes 29/10/2020:&#10;added euclidean distance compare for bounding boxes&#10;Project still not working as intended (how to empty boundig boxes drawings?)">
-      <change afterPath="$PROJECT_DIR$/TP2Tracking/testVideoTrackingUni.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP2Tracking/videotracker.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP2Tracking/Tests/testAutoTracking.py" beforeDir="false" afterPath="$PROJECT_DIR$/TP2Tracking/Tests/testAutoTracking.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP2Tracking/Tests/testTracking.py" beforeDir="false" afterPath="$PROJECT_DIR$/TP2Tracking/Tests/testTracking.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP2Tracking/testVideoTracking.py" beforeDir="false" afterPath="$PROJECT_DIR$/TP2Tracking/testVideoTracking.py" afterDir="false" />
-    </list>
+    <list default="true" id="0b368111-cfea-44cb-93bc-9dd6622b6a17" name="Default Changelist" comment="changes 29/10/2020:&#10;added euclidean distance compare for bounding boxes&#10;Project still not working as intended (how to empty boundig boxes drawings?)" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
