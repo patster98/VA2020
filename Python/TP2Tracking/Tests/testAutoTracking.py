@@ -26,7 +26,7 @@ import numpy as np  # Import Numpy library
 
 # src = 0
 src = '/Users/Skyguy/Desktop/Ingenieria/SegundoCuatrimestre/VisionArtificial/VA2020/Python/static/videos' \
-            '/carsRt9_3.avi'
+            '/CarreraJuegoAutos.mp4'
 
 def main():
     """

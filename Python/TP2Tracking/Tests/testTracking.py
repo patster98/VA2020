@@ -9,7 +9,7 @@ while True:
     k,frame = video.read()
     cv2.imshow("Tracking",cv2.flip(frame, 1))
     k = cv2.waitKey(30) & 0xff
-    if k == 27:
+    if k == ord('s'):
         break
 bbox = cv2.selectROI(frame, False)
 
