@@ -2,16 +2,16 @@ import cv2
 import sys
 import numpy as np
 import imutils
-from utils.bgSubstract import substractbg
+from utils.bgSubstract import contDetect
 
 ############### Tracker Types #####################
 
 # argtrack = cv2.TrackerBoosting_create()
 # argtrack = cv2.TrackerMIL_create()
-argtrack = cv2.TrackerKCF_create()  # muy rapido pero se pierde con oclusion y devuelve siempre true aunque pierda
+# argtrack = cv2.TrackerKCF_create()  # muy rapido pero se pierde con oclusion y devuelve siempre true aunque pierda
 # argtrack = cv2.TrackerTLD_create() #el mejor para safar los arboles pero muy lento
 # argtrack = cv2.TrackerMedianFlow_create()
-# argtrack = cv2.TrackerCSRT_create()
+argtrack = cv2.TrackerCSRT_create()
 # argtrack = cv2.TrackerMOSSE_create()
 
 ########################################################
@@ -31,7 +31,7 @@ cap = cv2.VideoCapture(videoPath)
 
 for i in range(0,100):
     _,rld = cap.read()
-    cnt, bwimg = substractbg(rld, back_sub)
+    cnt, bwimg = contDetect(rld, back_sub)
     if cnt != []:
         car = cnt
 cap.release()
