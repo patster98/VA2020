@@ -1,0 +1,11 @@
+Credits:
+Mariano Longo - code base + ideas
+Juani Pisani - some python cheats and ideas for the project
+
+Instructions:
+0) change video "src" variable to the destination of your video
+1) to begin run the mainTrack.py from console or from "run" command
+2) parameters are set to default so as to choose car from default video, but you can set them to
+    select the contour you want to follow
+3) press "b" when ready, program will start
+4) to pause press "p", to exit press "q"
