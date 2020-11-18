@@ -30,17 +30,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b368111-cfea-44cb-93bc-9dd6622b6a17" name="Default Changelist" comment="changes 29/10/2020:&#10;added euclidean distance compare for bounding boxes&#10;Project still not working as intended (how to empty boundig boxes drawings?)">
+      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/VA2020.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP2Tracking/utils/bgSubstract.py" beforeDir="false" afterPath="$PROJECT_DIR$/TP2Tracking/utils/bgSubstract.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP2Tracking/videotracker.py" beforeDir="false" afterPath="$PROJECT_DIR$/TP2Tracking/videotracker.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/va-trackerMarian-master/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/va-trackerMarian-master/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/va-trackerMarian-master/requirements" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/va-trackerMarian-master/resources/total-arcade-racing.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/va-trackerMarian-master/resources/video-nuevo.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/va-trackerMarian-master/src/image_process.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/va-trackerMarian-master/src/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/va-trackerMarian-master/src/trackbar.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -400,6 +397,10 @@
       <screen x="0" y="0" width="1366" height="714" />
     </state>
     <state x="695" y="120" key="#xdebugger.evaluate/0.0.1366.714@0.0.1366.714" timestamp="1603389962006" />
+    <state x="463" y="112" key="FileChooserDialogImpl" timestamp="1605297958976">
+      <screen x="0" y="0" width="1366" height="714" />
+    </state>
+    <state x="463" y="112" key="FileChooserDialogImpl/0.0.1366.714@0.0.1366.714" timestamp="1605297958976" />
     <state width="1345" height="216" key="GridCell.Tab.0.bottom" timestamp="1604694995103">
       <screen x="0" y="0" width="1366" height="714" />
     </state>
