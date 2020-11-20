@@ -1,7 +1,6 @@
 import cv2
 import sys
 import numpy as np
-import math
 import imutils
 from utils.bgSubstract import cntSelect
 from utils.operations import lapNumber, speedCalc, trackerCreation
@@ -33,8 +32,8 @@ def main():
 
     # constants
     fps = cap.get(cv2.CAP_PROP_FPS)
-    finish_line_x1 = 315
-    finish_line_x2 = 325
+    finish_line_x1 = 310
+    finish_line_x2 = 330
     finish_line_y1 = 12
     finish_line_y2 = 108
     carLength_meters = 5.12  # Car std measurement from Indianapolis 500 car series
@@ -66,10 +65,13 @@ def main():
         if succ:
             videoFrame = imutils.resize(frame, width=600)
         else:
+            frametop = lapFrame[0:120, 250:400]
+            cv2.imwrite("C://Users/Skyguy/Desktop/Ingenieria/SegundoCuatrimestre/VisionArtificial/VA2020/Python"
+                        "/TP2Tracking/Winner/winnerCar.jpg",frametop)
             sys.exit(1)
 
-        cv2.line(videoFrame, (finish_line_x1, finish_line_y1), (finish_line_x1, finish_line_y2), (0, 255, 0), thickness= 2)
-        cv2.line(videoFrame, (finish_line_x2, finish_line_y1), (finish_line_x2, finish_line_y2), (0, 255, 0), thickness= 2)
+        cv2.line(videoFrame, (finish_line_x1, finish_line_y1), (finish_line_x1, finish_line_y2), (0, 255, 153), thickness= 2)
+        cv2.line(videoFrame, (finish_line_x2, finish_line_y1), (finish_line_x2, finish_line_y2), (0, 255, 153), thickness= 2)
         if cv2.waitKey(1) & 0xFF == ord('q'):
             cv2.destroyAllWindows()
             break
@@ -77,7 +79,18 @@ def main():
         (success, boxes) = trackerMode.update(videoFrame)
         for box in boxes:
             (x, y, w, h) = [int(b) for b in box]
-            cv2.rectangle(videoFrame, (x, y), (x + w, y + h), (0, 143, 255), 3, cv2.LINE_AA)
+            cv2.rectangle(videoFrame, (x, y), (x + w, y + h), (0, 143, 255), 2, cv2.LINE_AA)
+            # Draw circle in the center of the bounding box
+            xc = x + int(w / 2)
+            yc = y + int(h / 2)
+            cv2.circle(videoFrame, (xc, yc), 3, (0, 143, 255), -1)
+            cv2.putText(videoFrame, "winning car",
+                        (x-15, y-5),
+                        cv2.FONT_HERSHEY_TRIPLEX,
+                        0.375,
+                        (0, 143, 255),
+                        1,
+                        cv2.LINE_AA)
 
             current_lapCounter = lapNumber(current_lapCounter,
                                             lap_times,
@@ -87,6 +100,8 @@ def main():
                                             finish_line_y1,
                                             finish_line_y2,
                                             video_time)
+            if current_lapCounter == 2:
+                lapFrame = videoFrame
 
             speed, new_total_distance = speedCalc(
                 total_distance,
@@ -96,7 +111,7 @@ def main():
                 fps,
                 video_time,
                 carLength_pixels,
-                carLength_meters)
+                carLength_meters, currentSpeed)
 
             currentSpeed = speed
             total_distance = new_total_distance
@@ -110,8 +125,8 @@ def main():
                     1,
                     cv2.LINE_AA)
 
-        cv2.putText(videoFrame, "Distance covered: " + str(total_distance),
-                    (30, 310),
+        cv2.putText(videoFrame, "Distance covered: " + str(total_distance) + " m",
+                    (30, 330),
                     cv2.FONT_HERSHEY_TRIPLEX,
                     0.5,
                     (0, 0, 0),
@@ -119,13 +134,14 @@ def main():
                     cv2.LINE_AA)
 
         if frameCount == 5:
+            #display speed every 5 frames
             displayedSpeed = currentSpeed
             frameCount = 0
         else:
             frameCount = frameCount + 1
 
         cv2.putText(videoFrame, "Speed: " + str(displayedSpeed) + " Km/h",
-                    (30, 300),
+                    (30, 310),
                     cv2.FONT_HERSHEY_TRIPLEX,
                     0.5,
                     (0, 0, 0),
@@ -134,11 +150,11 @@ def main():
 
         for time_index in range(1, len(lap_times)):
             aux = time_index + 1
-            cv2.putText(videoFrame, "Lap " + str(time_index) + ": " + str(math.floor(lap_times[time_index] / 1000)) + " secs",
+            cv2.putText(videoFrame, "Lap " + str(time_index) + ": " + str(np.floor(lap_times[time_index] / 1000)) + " secs",
                         (20, int(50 * (aux * 0.3))),
-                        cv2.FONT_HERSHEY_COMPLEX,
+                        cv2.FONT_HERSHEY_TRIPLEX,
                         0.5,
-                        (255, 0, 0),
+                        (140, 20, 74),
                         1,
                         cv2.LINE_AA)
 
@@ -147,6 +163,5 @@ def main():
 
         video_time = cap.get(cv2.CAP_PROP_POS_MSEC)
         cv2.imshow("Video", videoFrame)
-
 
 main()
