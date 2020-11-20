@@ -22,7 +22,14 @@ def main():
 
     trackerMode = cv2.MultiTracker_create()
     video = cap.read()
-    _, frame = video
+    gotVideo, frame = video
+
+    if not gotVideo:
+        print('Video not found')
+        print("success:", gotVideo, sep=" ")
+        sys.exit(1)
+    else:
+        print("Select CNT to track")
 
     videoFrame = imutils.resize(frame, width=600)
 
