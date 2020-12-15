@@ -1,3 +1,4 @@
+from __future__ import print_function  # Python 2/3 compatibility
 import cv2
 import sys
 import numpy as np
@@ -6,7 +7,6 @@ from utils.bgSubstract import cntSelect
 from utils.operations import lapNumber, speedCalc, trackerCreation
 
 ############### Tracker Types #####################
-
 # tracker = cv2.TrackerBoosting_create()
 # tracker = cv2.TrackerMIL_create()
 # tracker = cv2.TrackerKCF_create()  # muy rapido pero se pierde con oclusion y devuelve siempre true aunque pierda
@@ -79,8 +79,17 @@ def main():
 
         cv2.line(videoFrame, (finish_line_x1, finish_line_y1), (finish_line_x1, finish_line_y2), (0, 255, 153), thickness= 2)
         cv2.line(videoFrame, (finish_line_x2, finish_line_y1), (finish_line_x2, finish_line_y2), (0, 255, 153), thickness= 2)
+        if fps > 60:
+            myColor = (20, 230, 20)
+        elif fps > 20:
+            myColor = (230, 20, 20)
+        else:
+            myColor = (20, 20, 230)
+        cv2.putText(videoFrame,"FPS: "+ str(int(fps)), (400, 330), cv2.FONT_HERSHEY_SIMPLEX, 0.7, myColor, 2);
+
         if cv2.waitKey(1) & 0xFF == ord('q'):
             cv2.destroyAllWindows()
+            cap.release()
             break
 
         (success, boxes) = trackerMode.update(videoFrame)

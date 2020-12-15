@@ -8,3 +8,4 @@ print(mat_z)
 
 
 #  https://stackoverflow.com/questions/26089893/understanding-numpys-einsum
+# https://semantive.com/high-performance-computation-in-python-numpy-2/

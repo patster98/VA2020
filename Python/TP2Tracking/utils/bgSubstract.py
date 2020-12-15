@@ -21,7 +21,6 @@ def cntSelect(videoStream):
     trackbar2_Noise = 'NoiseVal'
     trackbar3_MaxC = 'MaxContArea'
     trackbar4_MinC = 'MinContArea'
-    trackbar4_Comp = 'Compare'
 
     maxThresh = 255
     maxNoise = 20
@@ -31,7 +30,6 @@ def cntSelect(videoStream):
     create_trackbar(trackbar2_Noise, window_name2, maxNoise)
     create_trackbar(trackbar4_MinC, window_name2, contourArea_min, 450)
     create_trackbar(trackbar3_MaxC, window_name2, contourArea_max, 500)
-    create_trackbar(trackbar4_Comp, window_name2, 200)
 
     ####################### Main CNT Substraction ####################
     while True:
